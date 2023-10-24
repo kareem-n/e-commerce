@@ -3,5 +3,22 @@
 @tailwind utilities;
 
 :root {
+    --theme-color :rgb(22, 163, 74) ;
+}
 
+.theme-text-color {
+    color: var(--theme-color);
+}
+
+.theme-bg-color {
+    background-color: var(--theme-color);
+}
+
+.theme-border-color {
+    border-color: var(--theme-color);
+}
+
+.navLinks li.active{
+    background-color: var(--theme-color);
+    color: #fff;
 }
