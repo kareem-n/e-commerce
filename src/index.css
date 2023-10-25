@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-    --theme-color :#be800d ;
+    --theme-color :#2A6877 ;
+    --bg-color: #C6D8E4 ;
 }
 
 .theme-text-color {
@@ -21,4 +22,8 @@
 .navLinks li.active{
     background-color: var(--theme-color);
     color: #fff;
+}
+
+body {
+    background-color: var(--bg-color);
 }

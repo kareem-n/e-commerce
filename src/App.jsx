@@ -8,7 +8,7 @@ function App() {
 
   return <>
     <Provider store={MainStore}>
-      <div className="bg-gray-300 min-h-screen">
+      <div className="min-h-screen">
         <NavBar />
         
         <Routes>

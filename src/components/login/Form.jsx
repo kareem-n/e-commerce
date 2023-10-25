@@ -16,7 +16,7 @@ function LoginForm() {
   }
 
   return (
-    <div className="px-10 flex items-center flex-col mt-7">
+    <div className="md:px-10 flex items-center flex-col relative z-0 mt-7">
 
       <div className="w-full bg-white relative rounded-lg shadow-lg border">
         <input
@@ -56,9 +56,6 @@ function LoginForm() {
       <div className="w-full mt-3 text-sm text-center">
         Create an account? <Link className="text-blue-500">Register...</Link> 
       </div>
-
-
-
 
     </div>
   )

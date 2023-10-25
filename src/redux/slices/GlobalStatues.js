@@ -5,6 +5,7 @@ const GlobalStatues = createSlice({
   initialState: {
     sideBarToggleState: false,
     searchToggle: false,
+    NavbarCategoryToggle: false,
   },
   reducers: {
     setSideBarToggleState: (state, action) => {
@@ -13,9 +14,16 @@ const GlobalStatues = createSlice({
     setSearchToggle: (state, action) => {
       state.searchToggle = action.payload;
     },
+    setNavbarCategoryToggle: (state, action) => {
+      state.NavbarCategoryToggle = action.payload;
+    },
   },
 });
 
 export default GlobalStatues.reducer;
 
-export const { setSideBarToggleState, setSearchToggle } = GlobalStatues.actions;
+export const {
+  setSideBarToggleState,
+  setSearchToggle,
+  setNavbarCategoryToggle,
+} = GlobalStatues.actions;
